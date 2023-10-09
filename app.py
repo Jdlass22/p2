@@ -7,6 +7,7 @@ from gtts import gTTS
 from PIL import Image
 
 st.title("Asistente de Sonoro")
+st.markdown("<h1 style='text-align: center; color: orange;'>Asistente de Análisis de Sentimiento</h1>", unsafe_allow_html=True)
 image = Image.open('WORLD-FLAGS.png')
 
 st.image(image, width=200)
