@@ -18,7 +18,7 @@ except:
     pass
 
 st.subheader("Reproductor de texto.")
-st.write('Que te gustaría escuchar hoy... Escribe algo.')
+st.write('¿Qué te gustaría escuchar hoy...? Escribe algo.')
            
 
 text = st.text_input("Ingrese el texto.")
