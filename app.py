@@ -25,6 +25,7 @@ st.write('¿Qué te gustaría escuchar hoy...? Escribe algo.')
 
 
 st.markdown("<h3 style='text-align: left; color: black;'>Cuentame algo: </h3>", unsafe_allow_html=True)
+text = st.text_input(" ")
 
 tld="es"
 
