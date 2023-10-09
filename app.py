@@ -25,6 +25,7 @@ st.write('¿Qué te gustaría escuchar hoy...? Escribe algo.')
 
 
 text = st.text_input("Cuentame algo.")
+user_input = st.text_area("")
 
 tld="es"
 
