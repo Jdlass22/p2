@@ -10,7 +10,7 @@ from PIL import Image
 st.markdown("<h1 style='text-align: center; color: orange;'>Asistente Sonoro</h1>", unsafe_allow_html=True)
 image = Image.open('flags.png')
 
-st.image(image, width=200)
+st.image(image, width=600)
 
 
 try:
