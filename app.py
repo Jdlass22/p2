@@ -22,7 +22,7 @@ except:
 st.markdown("<h1 style='text-align: left; color: orange;'>Reproductor de texto</h1>", unsafe_allow_html=True)
 st.write('¿Qué te gustaría escuchar hoy...? Escribe algo.')
            
-user_input = st.text_area("")
+text = st.text_input("")
 
 
 tld="es"
